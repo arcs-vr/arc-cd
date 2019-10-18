@@ -1,0 +1,22 @@
+$theme-dark: #333;
+$theme-light: #fff;
+$theme-primary: #ef8f9d;
+$theme-secondary: #95e4f9;
+
+$font-heading: filson-pro, sans-serif;
+$font-heading-weight: 100;
+$font-heading-style: normal;
+
+$font-paragraph: sofia-pro, sans-serif;
+$font-paragraph-style: normal;
+$font-paragraph-weight: 300;
+
+$desktop: 1200px;
+
+//noinspection CssInvalidPseudoSelector,CssUnknownProperty
+:export {
+  dark: $theme-dark;
+  light: $theme-light;
+  primary: $theme-primary;
+  secondary: $theme-secondary;
+}

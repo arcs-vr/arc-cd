@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+*.css
+*.css.map
+/src/.sass-cache/
+yarn.lock
+node_modules

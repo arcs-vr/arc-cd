@@ -1,0 +1,25 @@
+@import 'variables';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+  font-family: $font-heading;
+  font-style: $font-heading-style;
+  font-weight: $font-heading-weight;
+}
+
+a,
+p,
+.font-paragraph {
+  font-family: $font-paragraph;
+  font-style: $font-paragraph-style;
+  font-weight: $font-paragraph-weight;
+}
+
+a {
+  color: $theme-secondary;
+}

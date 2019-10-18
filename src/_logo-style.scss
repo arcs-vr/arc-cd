@@ -1,0 +1,45 @@
+@import 'variables';
+
+.isolate {
+  isolation: isolate;
+}
+
+.b {
+  fill: lighten($theme-dark, 50%);
+}
+
+.c {
+  fill: lighten($theme-dark, 25%);
+}
+
+.e {
+  fill: desaturate($theme-primary, 25%);
+}
+
+.f {
+  fill: desaturate($theme-secondary, 25%);
+}
+
+.d {
+  opacity: .3;
+}
+
+.g {
+  opacity: .4;
+}
+
+.h {
+  opacity: .6;
+}
+
+.i {
+  opacity: .8;
+}
+
+.j {
+  fill: $theme-primary;
+}
+
+.k {
+  fill: $theme-secondary;
+}
