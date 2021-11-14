@@ -1,6 +1,7 @@
-<template functional
-          v-once
-          src="./arc-logo.html"
+<template
+  functional
+  v-once
+  src="./arc-logo.html"
 />
 
 <script lang="js">
@@ -9,9 +10,10 @@
   }
 </script>
 
-<style lang="scss"
-       scoped
+<style
+  lang="scss"
+  scoped
 >
-    @import '../src/logo-style';
-    @import '../src/logo-animation';
+  @import '../src/logo-style';
+  @import '../src/logo-animation';
 </style>
