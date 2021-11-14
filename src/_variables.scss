@@ -12,11 +12,3 @@ $font-paragraph-style: normal;
 $font-paragraph-weight: 300;
 
 $desktop: 1200px;
-
-//noinspection CssInvalidPseudoSelector,CssUnknownProperty
-:export {
-  dark: $theme-dark;
-  light: $theme-light;
-  primary: $theme-primary;
-  secondary: $theme-secondary;
-}
