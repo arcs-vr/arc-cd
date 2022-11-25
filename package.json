@@ -1,6 +1,6 @@
 {
   "name": "arc-cd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Corporate design elements for all ARCS projects and tools.",
   "repository": "git@github.com:arcs-vr/arc-cd.git",
@@ -23,9 +23,12 @@
   "desktop": "./src/cd.scss",
   "main": "./src/cd.scss",
   "peerDependencies": {
-    "vue": "^2.6.14"
+    "vue": "^2.7.14"
   },
   "devDependencies": {
-    "vue": "^2.6.14"
+    "vue": "^2.7.14"
+  },
+  "dependencies": {
+    "@fontsource/fira-sans": "^4.5.10"
   }
 }
